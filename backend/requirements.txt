@@ -1,0 +1,13 @@
+flask
+flask-cors
+pydub
+SpeechRecognition
+googletrans==4.0.0-rc1
+nltk
+scikit-learn
+joblib
+pyttsx3
+numpy
+gTTS
+transformers
+torch

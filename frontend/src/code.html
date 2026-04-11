@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>AI Powered Career Guidance & Skill Development</title>
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet" />
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Montserrat', 'sans-serif'],
+                    },
+                    colors: {
+                        academic: {
+                            darkest: '#020617',
+                            dark: '#0f172a',
+                            primary: '#0ea5e9',
+                            secondary: '#22d3ee',
+                            accent: '#6366f1',
+                            light: '#f8fafc'
+                        }
+                    },
+                    backgroundImage: {
+                        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        @keyframes float {
+            0% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(5deg); }
+            100% { transform: translateY(0px) rotate(0deg); }
+        }
+
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .glass {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .hero-slide {
+            position: absolute;
+            inset: 0;
+            opacity: 0;
+            transition: opacity 2s ease-in-out;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .hero-slide.active {
+            opacity: 1;
+        }
+
+        .hero-overlay {
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(circle at 20% 50%, rgba(2, 6, 23, 0.95) 0%, rgba(2, 6, 23, 0.75) 45%, rgba(14, 165, 233, 0.12) 100%);
+        }
+
+        .glow-button {
+            box-shadow: 0 0 20px rgba(14, 165, 233, 0.4);
+            transition: all 0.3s ease;
+        }
+
+        .glow-button:hover {
+            box-shadow: 0 0 35px rgba(14, 165, 233, 0.6);
+        }
+
+        .voice-bar {
+            width: 4px;
+            background: linear-gradient(to top, #0ea5e9, #22d3ee);
+            border-radius: 4px;
+            animation: voiceWave 1.2s ease-in-out infinite;
+        }
+
+        @keyframes voiceWave {
+            0%, 100% { height: 10px; }
+            50% { height: 60px; }
+        }
+    </style>
+</head>
+
+<body class="font-sans bg-academic-darkest text-slate-200">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 bg-academic-darkest/80 backdrop-blur-xl border-b border-white/5 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center">
+                    <span class="text-2xl font-black font-heading tracking-tighter text-white">
+                        Career<span class="text-academic-primary">Pulse</span>
+                    </span>
+                </div>
+
+                <div class="hidden md:flex space-x-10">
+                    <a class="text-slate-400 hover:text-white font-medium transition-colors text-sm uppercase tracking-widest" href="#home">Home</a>
+                    <a class="text-slate-400 hover:text-white font-medium transition-colors text-sm uppercase tracking-widest" href="#about">About</a>
+                    <a class="text-slate-400 hover:text-white font-medium transition-colors text-sm uppercase tracking-widest" href="#chatbot">AI Assistant</a>
+                </div>
+
+                
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative min-h-screen flex items-center overflow-hidden" id="home">
+        <div class="absolute inset-0 z-0 pointer-events-none overflow-hidden">
+            <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-academic-primary/20 rounded-full blur-[120px] animate-float"></div>
+            <div class="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] bg-academic-accent/10 rounded-full blur-[150px] animate-float" style="animation-delay: -2s"></div>
+            <div class="absolute top-20 right-20 w-4 h-4 bg-academic-secondary rounded-full animate-pulse"></div>
+            <div class="absolute bottom-40 left-10 w-2 h-2 bg-white/40 rounded-full animate-bounce"></div>
+        </div>
+
+        <!-- Background Slider -->
+        <div class="hero-slide active" style="background-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1600&q=80')"></div>
+        <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1600&q=80')"></div>
+        <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1600&q=80')"></div>
+
+        <div class="hero-overlay"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
+            <div class="max-w-4xl">
+                
+
+                <h1 class="text-5xl md:text-8xl font-black font-heading text-white leading-[1.1] mb-8 tracking-tight">
+                    Student 
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-academic-primary to-academic-secondary">
+                        Career Guidance 
+                    </span>
+                    &
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-academic-primary to-academic-secondary">
+                       Skill Development
+                    </span>
+                </h1>
+
+                <p class="text-xl md:text-2xl text-slate-300 mb-12 leading-relaxed max-w-2xl font-light">
+                    Explore career opportunities, improve your skills, and get smart support through an AI-powered voice assistant designed for students.
+                </p>
+
+                <div class="flex flex-col sm:flex-row items-center gap-6">
+                    <a class="w-full sm:w-auto px-10 py-5 bg-gradient-to-r from-academic-primary to-academic-accent text-white font-black rounded-2xl transition-all duration-500 hover:scale-105 hover:shadow-[0_0_40px_rgba(14,165,233,0.5)] text-center font-heading uppercase tracking-widest text-sm" href="#chatbot">
+                        Explore Voice Assistant
+                    </a>
+
+                    <!--<a class="w-full sm:w-auto px-10 py-5 glass text-white hover:bg-white/10 font-bold rounded-2xl transition-all duration-300 text-center font-heading uppercase tracking-widest text-sm" href="#about">
+                        Learn More
+                    </a>-->
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="py-32 relative bg-academic-darkest overflow-hidden" id="about">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center mb-24">
+                <h2 class="text-4xl md:text-6xl font-black font-heading text-white mb-6">ABOUT</h2>
+                <div class="w-24 h-2 bg-gradient-to-r from-academic-primary to-academic-accent mx-auto rounded-full"></div>
+                <p class="mt-8 text-slate-400 max-w-2xl mx-auto text-xl font-light leading-relaxed">
+                    Career guidance and skill development help students understand their goals, improve their abilities, and prepare for future opportunities.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                <!-- Card 1 -->
+                <div class="glass p-8 rounded-[2.5rem] transition-all duration-500 hover:-translate-y-4 hover:bg-white/5 hover:border-academic-primary/50 group">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80"
+                         alt="Career Awareness"
+                         class="w-full h-48 object-cover rounded-2xl mb-8 shadow-xl" />
+                    <h3 class="text-2xl font-black font-heading text-white mb-5">Career Awareness</h3>
+                    <p class="text-slate-400 leading-relaxed font-light">
+                        Students can explore different career paths, understand job roles, and identify future opportunities based on their interests.
+                    </p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="glass p-8 rounded-[2.5rem] transition-all duration-500 hover:-translate-y-4 hover:bg-white/5 hover:border-teal-400/50 group">
+                    <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=900&q=80"
+                         alt="Skill Development"
+                         class="w-full h-48 object-cover rounded-2xl mb-8 shadow-xl" />
+                    <h3 class="text-2xl font-black font-heading text-white mb-5">Skill Development</h3>
+                    <p class="text-slate-400 leading-relaxed font-light">
+                        Learning technical and communication skills helps students improve confidence, employability, and real-world readiness.
+                    </p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="glass p-8 rounded-[2.5rem] transition-all duration-500 hover:-translate-y-4 hover:bg-white/5 hover:border-indigo-500/50 group">
+                    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=900&q=80"
+                         alt="Future Opportunities"
+                         class="w-full h-48 object-cover rounded-2xl mb-8 shadow-xl" />
+                    <h3 class="text-2xl font-black font-heading text-white mb-5">Future Opportunities</h3>
+                    <p class="text-slate-400 leading-relaxed font-light">
+                        Career guidance helps students prepare for higher education, internships, and job opportunities in competitive industries.
+                    </p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="glass p-8 rounded-[2.5rem] transition-all duration-500 hover:-translate-y-4 hover:bg-white/5 hover:border-sky-400/50 group">
+                    <img src="https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?auto=format&fit=crop&w=900&q=80"
+                         alt="Personal Growth"
+                         class="w-full h-48 object-cover rounded-2xl mb-8 shadow-xl" />
+                    <h3 class="text-2xl font-black font-heading text-white mb-5">Personal Growth</h3>
+                    <p class="text-slate-400 leading-relaxed font-light">
+                        Career and skill guidance supports self-improvement, decision-making, confidence building, and long-term personal success.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Voice Chatbot Section -->
+    <section class="py-32 bg-slate-900/30 border-y border-white/5 relative overflow-hidden" id="chatbot">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="flex flex-col lg:flex-row items-center gap-24">
+
+                <div class="lg:w-1/2">
+                    <span class="text-academic-primary font-black uppercase tracking-[0.3em] text-xs">AI Voice Assistant</span>
+                    <h2 class="text-4xl md:text-7xl font-black font-heading text-white mt-6 mb-10 leading-tight">
+                        SMART VOICE CHATBOT
+                    </h2>
+
+                    <div class="space-y-10 mb-16">
+                        <div class="flex items-start gap-6 group">
+                            <div class="flex-shrink-0 w-16 h-16 glass rounded-2xl flex items-center justify-center text-academic-primary group-hover:text-white group-hover:bg-academic-primary transition-all duration-300">
+                                <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                                    <path clip-rule="evenodd" d="M7 4a3 3 0 016 0v4a3 3 0 11-6 0V4zm4 10.93A7.001 7.001 0 0017 8a1 1 0 10-2 0A5 5 0 015 8a1 1 0 00-2 0 7.001 7.001 0 005.93 6.93V17H7a1 1 0 100 2h6a1 1 0 100-2h-1.93v-2.07z" fill-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold text-white mb-2">Easy Voice Interaction</h4>
+                                <p class="text-slate-400 font-light text-lg">
+                                    Students can ask questions using voice, making the system simple, fast, and interactive.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-6 group">
+                            <div class="flex-shrink-0 w-16 h-16 glass rounded-2xl flex items-center justify-center text-academic-primary group-hover:text-white group-hover:bg-academic-secondary transition-all duration-300">
+                                <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
+                                    <path clip-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" fill-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold text-white mb-2">Instant Career Support</h4>
+                                <p class="text-slate-400 font-light text-lg">
+                                    The chatbot provides quick guidance about careers, skills, and learning paths whenever students need help.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="glow-button group relative inline-flex items-center justify-center px-10 py-6 font-heading font-black text-white bg-academic-primary rounded-2xl overflow-hidden" id="open-chatbot">
+                        <span class="relative z-10 flex items-center gap-4 uppercase tracking-widest text-sm">
+                            Open Chatbot
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+                            </svg>
+                        </span>
+                        <div class="absolute inset-0 bg-gradient-to-r from-academic-primary to-academic-accent transition-transform duration-500 group-hover:scale-105"></div>
+                    </button>
+                </div>
+
+                <div class="lg:w-1/2 flex justify-center">
+                    <div class="relative w-full max-w-xl aspect-square glass rounded-[3rem] border-2 border-white/10 shadow-[0_0_100px_rgba(14,165,233,0.2)] flex flex-col items-center justify-center p-12 overflow-hidden group">
+                        <div class="absolute inset-0 bg-gradient-radial from-academic-primary/5 to-transparent"></div>
+
+                        <div class="flex items-center gap-3 mb-16 h-32">
+                            <div class="voice-bar" style="animation-delay: 0.1s"></div>
+                            <div class="voice-bar" style="animation-delay: 0.4s"></div>
+                            <div class="voice-bar" style="animation-delay: 0.2s"></div>
+                            <div class="voice-bar" style="animation-delay: 0.7s"></div>
+                            <div class="voice-bar" style="animation-delay: 0.3s"></div>
+                            <div class="voice-bar" style="animation-delay: 0.5s"></div>
+                            <div class="voice-bar" style="animation-delay: 0.9s"></div>
+                        </div>
+
+                        <div class="text-center relative z-10">
+                            <div class="inline-block px-4 py-1.5 rounded-full bg-academic-primary/20 text-academic-primary text-xs font-black uppercase tracking-widest mb-6 border border-academic-primary/20">
+                                Voice Query
+                            </div>
+                            <h3 class="text-3xl font-black font-heading text-white leading-tight">
+                                "What skills do I need for
+                                <span class="text-academic-secondary"> Data Science</span>?"
+                            </h3>
+                        </div>
+
+                        <div class="absolute -bottom-10 -right-10 opacity-10 rotate-12 transform group-hover:scale-110 transition-transform duration-1000">
+                            <svg class="w-64 h-64" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M7 4a3 3 0 016 0v4a3 3 0 11-6 0V4zm4 10.93A7.001 7.001 0 0017 8a1 1 0 10-2 0A5 5 0 015 8a1 1 0 00-2 0 7.001 7.001 0 005.93 6.93V17H7a1 1 0 100 2h6a1 1 0 100-2h-1.93v-2.07z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-academic-darkest text-white py-20 border-t border-white/5 relative z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-16 items-center">
+                <div class="text-center md:text-left">
+                    <span class="text-3xl font-black font-heading text-white tracking-tighter">
+                        Career<span class="text-academic-primary">Pulse</span>
+                    </span>
+                    <p class="text-slate-500 mt-4 text-sm font-light uppercase tracking-widest">
+                        Students Career Guidance and Skill Development
+                    </p>
+                </div>
+
+                <div class="flex flex-wrap justify-center gap-10">
+                    <a class="text-slate-400 hover:text-academic-primary transition-colors text-xs font-bold uppercase tracking-widest" href="#home">Home</a>
+                    <a class="text-slate-400 hover:text-academic-primary transition-colors text-xs font-bold uppercase tracking-widest" href="#about">About</a>
+                    <a class="text-slate-400 hover:text-academic-primary transition-colors text-xs font-bold uppercase tracking-widest" href="#chatbot">Chatbot</a>
+                </div>
+
+                <!--<div class="flex justify-center md:justify-end space-x-6">
+                    <a class="w-12 h-12 glass rounded-2xl flex items-center justify-center hover:bg-academic-primary hover:text-white transition-all duration-300" href="#">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069z"></path>
+                        </svg>
+                    </a>
+
+                    <a class="w-12 h-12 glass rounded-2xl flex items-center justify-center hover:bg-academic-secondary hover:text-white transition-all duration-300" href="#">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5z"></path>
+                        </svg>
+                    </a>
+                </div>-->
+            </div>
+
+            <div class="mt-20 pt-10 border-t border-white/5 text-center text-slate-600 text-[10px] font-black uppercase tracking-[0.4em]">
+                Students • Career Guidance and Skill Development Portal
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const slides = document.querySelectorAll('.hero-slide');
+        let currentSlide = 0;
+
+        function nextSlide() {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (currentSlide + 1) % slides.length;
+            slides[currentSlide].classList.add('active');
+        }
+
+        setInterval(nextSlide, 6000);
+
+        document.getElementById('open-chatbot').addEventListener('click', () => {
+            window.location.href = "chatbot.html";
+        });
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    window.scrollTo({
+                        top: target.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,727 @@
+question,intent
+hello,greeting
+hi,greeting
+hey,greeting
+good morning,greeting
+good evening,greeting
+how are you,greeting
+hello chatbot,greeting
+hi there,greeting
+good afternoon,greeting
+hey bot,greeting
+what can you help me with,greeting
+i need guidance,greeting
+can you help me,greeting
+i have a question,greeting
+please help me,greeting
+
+what are career options after graduation,career
+what career paths can i choose,career
+what jobs can i get after degree,career
+which profession is best for me,career
+what are the best careers for students,career
+what can i do after completing my degree,career
+what are the career opportunities available,career
+what is the best career for future,career
+which career has good salary,career
+how to choose a career path,career
+what are high paying careers,career
+which field has most job opportunities,career
+what careers are in demand,career
+what is the scope of engineering,career
+what jobs are available for science students,career
+
+how can i improve my skills,skills
+what skills are required for job,skills
+what skills should students learn,skills
+how to develop technical skills,skills
+how to improve analytical skills,skills
+how to improve problem solving skills,skills
+important skills for career,skills
+what are most demanded skills in job market,skills
+how can i build professional skills,skills
+what are important employability skills,skills
+what soft skills are needed for job,skills
+how to learn new skills fast,skills
+which technical skills are in demand,skills
+how to build leadership skills,skills
+what skills do companies look for,skills
+
+how to prepare a resume,resume
+how to write a resume,resume
+how to create a resume,resume
+resume preparation tips,resume
+what should be included in resume,resume
+resume format for freshers,resume
+how to build my resume,resume
+how to make a professional resume,resume
+best way to prepare resume,resume
+resume writing tips,resume
+how to write objective in resume,resume
+what to put in resume with no experience,resume
+how long should a resume be,resume
+how to list skills in resume,resume
+how to add projects in resume,resume
+
+how to prepare for interview,interview
+how to attend interview confidently,interview
+interview preparation tips,interview
+how to answer interview questions,interview
+how to clear hr interview,interview
+how to crack technical interview,interview
+what are common interview questions,interview
+how to prepare for job interview,interview
+interview tips for students,interview
+how to face interview confidently,interview
+how to answer tell me about yourself,interview
+what to wear for interview,interview
+how to prepare for online interview,interview
+how to handle difficult interview questions,interview
+what questions to ask interviewer,interview
+
+which platform is best for online learning,courses
+what are best mooc platforms for students,courses
+how to get certified in programming,courses
+which certification is best for freshers,courses
+how to choose right certification,courses
+which online certification helps get job,courses
+how to get free certification online,courses
+best certification to learn after graduation,courses
+which certification is trending in 2024,courses
+how to learn programming from scratch,courses
+best certification for it job,courses
+which certification improves my salary,courses
+how to get internship through online learning,courses
+best google certificate for students,courses
+which coursera certification is free,courses
+
+should i study higher studies,higher_studies
+what can i study after graduation,higher_studies
+should i pursue masters after graduation,higher_studies
+is post graduation worth doing,higher_studies
+what are higher study options,higher_studies
+best higher studies after graduation,higher_studies
+what are benefits of doing masters degree,higher_studies
+can i study abroad,higher_studies
+which masters degree is good,higher_studies
+what are post graduation options,higher_studies
+is phd worth doing,higher_studies
+how does higher education improve career,higher_studies
+what is value of post graduation degree,higher_studies
+should i do job or higher studies,higher_studies
+which country is best for higher studies,higher_studies
+
+how to become a software developer,software_career
+what should i learn for programming,software_career
+how to start software career,software_career
+skills needed for software job,software_career
+how to become web developer,software_career
+software career path,software_career
+how to get job in software company,software_career
+what programming languages should i learn,software_career
+how to become full stack developer,software_career
+how to start coding career,software_career
+how to become backend developer,software_career
+how to become frontend developer,software_career
+what is scope of software engineering,software_career
+how to crack software company interview,software_career
+which company is best for software job,software_career
+what profession should i choose after college,career
+which job field is growing fast,career
+what are emerging career fields,career
+which sector has stable employment,career
+what are career trends in india,career
+
+how to become data analyst,data_career
+what should i study for data analytics,data_career
+how to start data science career,data_career
+skills required for data analyst,data_career
+how to become ai engineer,data_career
+how to start machine learning career,data_career
+courses for data science,data_career
+how to learn python for data science,data_career
+career in artificial intelligence,data_career
+future of data science careers,data_career
+what is scope of data science,data_career
+how to become machine learning engineer,data_career
+salary of data scientist,data_career
+how to get data analyst job,data_career
+tools needed for data science,data_career
+
+how to improve communication skills,communication
+how to speak confidently,communication
+how to improve public speaking,communication
+how to talk confidently in interview,communication
+communication skills for students,communication
+how to overcome fear of speaking,communication
+how to improve presentation skills,communication
+how to talk effectively with people,communication
+how to become confident speaker,communication
+tips to improve communication skills,communication
+how to improve english speaking,communication
+how to present ideas clearly,communication
+how to write professional emails,communication
+how to improve listening skills,communication
+how to speak in group discussions,communication
+
+how to plan my career,career_guidance
+how to choose correct career,career_guidance
+career planning tips,career_guidance
+how to find my interest in career,career_guidance
+how to decide future career,career_guidance
+career guidance for students,career_guidance
+how to select right profession,career_guidance
+how to build successful career,career_guidance
+career advice for graduates,career_guidance
+how to plan my future career,career_guidance
+how to set career goals,career_guidance
+what factors to consider when choosing career,career_guidance
+how to match career with interest,career_guidance
+career guidance for first year students,career_guidance
+how to know which career suits me,career_guidance
+
+what is internship,internship
+how to get internship,internship
+benefits of internship,internship
+how to apply for internship,internship
+internship tips for students,internship
+how to impress during internship,internship
+internship opportunities for students,internship
+how internship helps career,internship
+where to find internships,internship
+internship importance for students,internship
+how to write internship application,internship
+what to expect in internship,internship
+how long should internship be,internship
+paid vs unpaid internship which is better,internship
+how to convert internship to full time job,internship
+
+what is freelancing,freelancing
+how to start freelancing,freelancing
+freelancing jobs for students,freelancing
+how to earn money online,freelancing
+best freelancing platforms,freelancing
+skills needed for freelancing,freelancing
+how to become freelancer,freelancing
+freelancing career tips,freelancing
+freelancing opportunities for beginners,freelancing
+how to work as freelancer online,freelancing
+how to get first client in freelancing,freelancing
+how much can i earn from freelancing,freelancing
+is freelancing good for students,freelancing
+freelancing vs job which is better,freelancing
+how to build freelancing portfolio,freelancing
+
+what stream to choose after 10th,tenth_guidance
+which stream is best after 10th,tenth_guidance
+should i choose science or commerce after 10th,tenth_guidance
+what are options after 10th standard,tenth_guidance
+which stream has more job opportunities after 10th,tenth_guidance
+what is scope of computer science after 10th,tenth_guidance
+what is scope of biology stream after 10th,tenth_guidance
+what careers can i get after choosing science stream,tenth_guidance
+is commerce good after 10th,tenth_guidance
+what stream should i choose if i like computers,tenth_guidance
+what stream should i choose if i like medicine,tenth_guidance
+what stream should i choose if i like business,tenth_guidance
+which stream is best for engineering,tenth_guidance
+which stream is best for doctor,tenth_guidance
+can i change stream after 10th,tenth_guidance
+what skills should i develop in 10th,tenth_guidance
+is arts stream good after 10th,tenth_guidance
+scope of arts stream after 10th,tenth_guidance
+scope of commerce stream after 10th,tenth_guidance
+scope of science stream after 10th,tenth_guidance
+
+what course to choose after 12th,twelfth_guidance
+which degree is best after 12th,twelfth_guidance
+what are ug options after 12th science,twelfth_guidance
+what are ug options after 12th commerce,twelfth_guidance
+what are ug options after 12th arts,twelfth_guidance
+which engineering branch is best after 12th,twelfth_guidance
+is bsc good after 12th,twelfth_guidance
+is bcom good after 12th,twelfth_guidance
+is ba good after 12th,twelfth_guidance
+what is scope of btech after 12th,twelfth_guidance
+should i choose btech or bsc after 12th,twelfth_guidance
+what is scope of bca after 12th,twelfth_guidance
+what jobs can i get after btech,twelfth_guidance
+which college is best for engineering,twelfth_guidance
+how to choose right ug course after 12th,twelfth_guidance
+what skills should 12th student develop,twelfth_guidance
+is medical good career after 12th bio,twelfth_guidance
+scope of computer science engineering,twelfth_guidance
+scope of mechanical engineering,twelfth_guidance
+scope of civil engineering,twelfth_guidance
+what course to select after completing 12th,twelfth_guidance
+after 12th standard which course is good,twelfth_guidance
+course selection after 12th grade,twelfth_guidance
+after passing 12th what course should i join,twelfth_guidance
+which course to pursue after 12th,twelfth_guidance
+best course to join after 12th,twelfth_guidance
+after 12th which subject to choose,twelfth_guidance
+what to study after 12th standard,twelfth_guidance
+after 12th completion which course,twelfth_guidance
+which degree course after 12th,twelfth_guidance
+what subject to take after 12th,twelfth_guidance
+which stream course is best after 12th,twelfth_guidance
+
+should ug student do job or pg,ug_guidance
+what are pg options after ug,ug_guidance
+should i do mba after btech,ug_guidance
+should i do mca after bca,ug_guidance
+is it better to work after graduation or study more,ug_guidance
+what skills should ug student learn,ug_guidance
+how to get job after graduation,ug_guidance
+what certifications should ug student do,ug_guidance
+should i do mtech after btech,ug_guidance
+what is scope after bsc,ug_guidance
+what is scope after bca,ug_guidance
+what is scope after bcom,ug_guidance
+how to prepare for placements in ug,ug_guidance
+what projects should ug student build,ug_guidance
+should i go for government job or private job after ug,ug_guidance
+how to build resume as ug student,ug_guidance
+how to get internship as ug student,ug_guidance
+what is scope after ba,ug_guidance
+how to succeed in campus recruitment,ug_guidance
+tips for ug students to get job,ug_guidance
+
+what are career options after pg,pg_guidance
+should pg student do phd or job,pg_guidance
+what jobs are available for pg students,pg_guidance
+how to get job after mca,pg_guidance
+how to get job after mba,pg_guidance
+how to get job after mtech,pg_guidance
+what skills should pg student have,pg_guidance
+how to prepare for job after pg,pg_guidance
+is research good career after pg,pg_guidance
+scope of mca in future,pg_guidance
+scope of mba in future,pg_guidance
+scope of mtech in future,pg_guidance
+how to crack interview after pg,pg_guidance
+what certifications are good after mca,pg_guidance
+what certifications are good after mba,pg_guidance
+should pg student go abroad for job,pg_guidance
+how to build strong resume after pg,pg_guidance
+difference between pg job and ug job,pg_guidance
+how pg degree helps in salary,pg_guidance
+tips for pg students to get good job,pg_guidance
+
+what is scope of computer science stream,cs_scope
+why should i choose computer science,cs_scope
+what jobs come from computer science,cs_scope
+what skills are needed for computer science,cs_scope
+is computer science good stream,cs_scope
+what can i become after computer science,cs_scope
+salary in computer science field,cs_scope
+future of computer science,cs_scope
+computer science stream subjects,cs_scope
+is programming necessary for computer science,cs_scope
+
+what is scope of biology stream,bio_scope
+why should i choose biology stream,bio_scope
+what jobs come from biology stream,bio_scope
+what skills are needed for biology students,bio_scope
+is biology good stream,bio_scope
+what can i become after biology,bio_scope
+scope of medicine after biology,bio_scope
+scope of pharmacy after biology,bio_scope
+scope of biotechnology after biology,bio_scope
+future of biology stream students,bio_scope
+
+what is scope of commerce stream,commerce_scope
+why should i choose commerce stream,commerce_scope
+what jobs come from commerce stream,commerce_scope
+what skills are needed for commerce students,commerce_scope
+is commerce good stream,commerce_scope
+what can i become after commerce,commerce_scope
+scope of ca after commerce,commerce_scope
+scope of bcom after commerce,commerce_scope
+scope of economics after commerce,commerce_scope
+future of commerce stream students,commerce_scope
+
+what is scope of arts stream,arts_scope
+why should i choose arts stream,arts_scope
+what jobs come from arts stream,arts_scope
+what skills are needed for arts students,arts_scope
+is arts good stream,arts_scope
+what can i become after arts,arts_scope
+scope of journalism after arts,arts_scope
+scope of law after arts,arts_scope
+scope of psychology after arts,arts_scope
+future of arts stream students,arts_scope
+
+what is the scope of mechanical engineering,mech_scope
+why choose mechanical engineering,mech_scope
+jobs after mechanical engineering,mech_scope
+skills needed for mechanical engineer,mech_scope
+salary of mechanical engineer,mech_scope
+future of mechanical engineering,mech_scope
+is mechanical engineering good,mech_scope
+what companies hire mechanical engineers,mech_scope
+can mechanical engineer work in software,mech_scope
+core jobs for mechanical engineering,mech_scope
+
+what is scope of civil engineering,civil_scope
+why choose civil engineering,civil_scope
+jobs after civil engineering,civil_scope
+skills needed for civil engineer,civil_scope
+salary of civil engineer,civil_scope
+future of civil engineering,civil_scope
+is civil engineering good,civil_scope
+what companies hire civil engineers,civil_scope
+government jobs for civil engineering,civil_scope
+scope of civil engineering in india,civil_scope
+
+what is scope of electrical engineering,electrical_scope
+why choose electrical engineering,electrical_scope
+jobs after electrical engineering,electrical_scope
+skills needed for electrical engineer,electrical_scope
+salary of electrical engineer,electrical_scope
+future of electrical engineering,electrical_scope
+is electrical engineering good,electrical_scope
+what companies hire electrical engineers,electrical_scope
+government jobs for electrical engineering,electrical_scope
+scope of electrical engineering in future,electrical_scope
+
+what is scope of bca,bca_scope
+why choose bca,bca_scope
+jobs after bca,bca_scope
+skills needed for bca students,bca_scope
+salary after bca,bca_scope
+future after bca,bca_scope
+is bca good course,bca_scope
+what to do after bca,bca_scope
+bca vs btech which is better,bca_scope
+scope of bca in software companies,bca_scope
+
+what is scope of bsc computer science,bsc_scope
+why choose bsc computer science,bsc_scope
+jobs after bsc computer science,bsc_scope
+skills needed for bsc cs students,bsc_scope
+salary after bsc computer science,bsc_scope
+future after bsc computer science,bsc_scope
+is bsc cs good course,bsc_scope
+what to do after bsc cs,bsc_scope
+bsc cs vs bca which is better,bsc_scope
+scope of bsc cs in software companies,bsc_scope
+
+how to prepare for government exam,govt_exam
+which government exams can i write after graduation,govt_exam
+what is upsc exam,govt_exam
+what is tnpsc exam,govt_exam
+how to crack government exams,govt_exam
+study plan for government exams,govt_exam
+best books for government exam preparation,govt_exam
+how long to prepare for government exam,govt_exam
+is government job better than private job,govt_exam
+what are benefits of government job,govt_exam
+
+how to improve aptitude skills,aptitude
+how to prepare for aptitude test,aptitude
+best books for aptitude,aptitude
+how to solve aptitude questions fast,aptitude
+aptitude tips for placement,aptitude
+what topics are in aptitude test,aptitude
+how to crack aptitude round,aptitude
+aptitude preparation for campus placement,aptitude
+time management in aptitude test,aptitude
+how to improve logical reasoning,aptitude
+
+how to prepare for hr round,placement
+tips for campus placement preparation,placement
+what rounds are in campus placement,placement
+how to prepare for hr round,placement
+how to prepare for technical round,placement
+group discussion tips for placement,placement
+how to write resume for campus placement,placement
+which companies come for campus placement,placement
+how to get selected in campus placement,placement
+placement preparation plan for final year,placement
+
+how to build a strong linkedin profile,linkedin
+why linkedin is important for students,linkedin
+how to use linkedin for job search,linkedin
+how to connect with recruiters on linkedin,linkedin
+how to get noticed on linkedin,linkedin
+linkedin tips for freshers,linkedin
+how to write linkedin summary,linkedin
+how to get recommendations on linkedin,linkedin
+how to apply for jobs on linkedin,linkedin
+linkedin profile tips for students,linkedin
+
+how to solve dsa problems for technical round,coding_interview
+how to prepare for dsa interview,coding_interview
+best resources for coding interview,coding_interview
+how to solve leetcode problems,coding_interview
+data structures needed for interview,coding_interview
+algorithms needed for coding interview,coding_interview
+how to improve coding speed,coding_interview
+how to practice coding daily,coding_interview
+which language to use in coding interview,coding_interview
+how to handle coding interview pressure,coding_interview
+
+what is digital marketing,digital_marketing
+scope of digital marketing,digital_marketing
+how to start digital marketing career,digital_marketing
+skills needed for digital marketing,digital_marketing
+courses for digital marketing,digital_marketing
+salary in digital marketing,digital_marketing
+is digital marketing good career,digital_marketing
+how to learn seo,digital_marketing
+how to learn social media marketing,digital_marketing
+future of digital marketing,digital_marketing
+
+what is cloud computing,cloud_career
+scope of cloud computing,cloud_career
+how to start cloud computing career,cloud_career
+skills needed for cloud engineer,cloud_career
+courses for cloud computing,cloud_career
+salary in cloud computing,cloud_career
+is cloud computing good career,cloud_career
+how to get aws certification,cloud_career
+how to get google cloud certification,cloud_career
+future of cloud computing,cloud_career
+
+what is cyber security,cyber_career
+scope of cyber security,cyber_career
+how to start cyber security career,cyber_career
+skills needed for cyber security,cyber_career
+courses for cyber security,cyber_career
+salary in cyber security,cyber_career
+is cyber security good career,cyber_career
+how to learn ethical hacking,cyber_career
+certifications for cyber security,cyber_career
+future of cyber security,cyber_career
+
+what is ui ux design,design_career
+scope of ui ux design,design_career
+how to start ui ux career,design_career
+skills needed for ui ux designer,design_career
+courses for ui ux design,design_career
+salary in ui ux design,design_career
+is ui ux good career,design_career
+tools needed for ui ux design,design_career
+how to build ui ux portfolio,design_career
+future of ui ux design,design_career
+
+how to manage time as student,student_tips
+how to stay focused on studies,student_tips
+how to balance studies and career preparation,student_tips
+productivity tips for students,student_tips
+how to overcome laziness in studies,student_tips
+how to set goals as student,student_tips
+how to prepare for future while studying,student_tips
+how to use free time productively,student_tips
+how to build confidence as student,student_tips
+tips to succeed as student,student_tips
+
+what are career options in computer science,cs_scope
+which companies hire computer science students,cs_scope
+what is salary in computer science field,cs_scope
+future scope of computer science in india,cs_scope
+can i get government job after computer science,cs_scope
+what degree should i do in computer science,cs_scope
+is computer science better than other streams,cs_scope
+what are advantages of computer science stream,cs_scope
+how to start career in computer science,cs_scope
+what subjects are in computer science stream,cs_scope
+
+what are career options in biology stream,bio_scope
+which courses can biology students do,bio_scope
+what is salary in biology field,bio_scope
+future scope of biology in india,bio_scope
+can i get government job after biology,bio_scope
+what degree should i do after biology stream,bio_scope
+is biology better than other streams,bio_scope
+what are advantages of biology stream,bio_scope
+how to start career after biology,bio_scope
+what subjects are in biology stream,bio_scope
+
+what are career options in commerce stream,commerce_scope
+which courses can commerce students do,commerce_scope
+what is salary in commerce field,commerce_scope
+future scope of commerce in india,commerce_scope
+can i get government job after commerce,commerce_scope
+what degree should i do after commerce stream,commerce_scope
+is commerce better than other streams,commerce_scope
+what are advantages of commerce stream,commerce_scope
+how to start career after commerce,commerce_scope
+what subjects are in commerce stream,commerce_scope
+
+what are career options in arts stream,arts_scope
+which courses can arts students do,arts_scope
+what is salary in arts field,arts_scope
+future scope of arts in india,arts_scope
+can i get government job after arts,arts_scope
+what degree should i do after arts stream,arts_scope
+is arts better than other streams,arts_scope
+what are advantages of arts stream,arts_scope
+how to start career after arts,arts_scope
+what subjects are in arts stream,arts_scope
+
+what are core jobs for mechanical engineering,mech_scope
+which companies hire mechanical engineers in india,mech_scope
+what is starting salary of mechanical engineer,mech_scope
+future of mechanical engineering in india,mech_scope
+can mechanical engineer get government job,mech_scope
+what higher studies can mechanical engineer do,mech_scope
+is mechanical engineering better than other branches,mech_scope
+what are advantages of mechanical engineering,mech_scope
+how to get job after mechanical engineering,mech_scope
+what subjects are in mechanical engineering,mech_scope
+
+what are core jobs for civil engineering,civil_scope
+which companies hire civil engineers in india,civil_scope
+what is starting salary of civil engineer,civil_scope
+future of civil engineering in india,civil_scope
+can civil engineer get government job,civil_scope
+what higher studies can civil engineer do,civil_scope
+is civil engineering better than other branches,civil_scope
+what are advantages of civil engineering,civil_scope
+how to get job after civil engineering,civil_scope
+what subjects are in civil engineering,civil_scope
+
+what are core jobs for electrical engineering,electrical_scope
+which companies hire electrical engineers in india,electrical_scope
+what is starting salary of electrical engineer,electrical_scope
+future of electrical engineering in india,electrical_scope
+can electrical engineer get government job,electrical_scope
+what higher studies can electrical engineer do,electrical_scope
+is electrical engineering better than other branches,electrical_scope
+what are advantages of electrical engineering,electrical_scope
+how to get job after electrical engineering,electrical_scope
+what subjects are in electrical engineering,electrical_scope
+
+what are job opportunities after bca,bca_scope
+which companies hire bca graduates,bca_scope
+what is starting salary after bca,bca_scope
+future of bca graduates,bca_scope
+can bca graduate get government job,bca_scope
+what higher studies can bca student do,bca_scope
+is bca better than btech,bca_scope
+what are advantages of bca,bca_scope
+how to get software job after bca,bca_scope
+what subjects are in bca,bca_scope
+
+what are job opportunities after bsc cs,bsc_scope
+which companies hire bsc cs graduates,bsc_scope
+what is starting salary after bsc cs,bsc_scope
+future of bsc cs graduates,bsc_scope
+can bsc cs graduate get government job,bsc_scope
+what higher studies can bsc cs student do,bsc_scope
+is bsc cs better than bca,bsc_scope
+what are advantages of bsc cs,bsc_scope
+how to get software job after bsc cs,bsc_scope
+what subjects are in bsc cs,bsc_scope
+
+which government exams are best after graduation,govt_exam
+how to start government exam preparation,govt_exam
+what is syllabus for tnpsc exam,govt_exam
+what is syllabus for ssc exam,govt_exam
+how many hours to study for government exam,govt_exam
+is coaching necessary for government exam,govt_exam
+what age limit for government exams,govt_exam
+how to manage time for government exam preparation,govt_exam
+what are benefits of clearing tnpsc,govt_exam
+how to crack banking exams,govt_exam
+
+how to improve aptitude for placement,aptitude
+which topics are important in aptitude,aptitude
+how to solve percentage problems fast,aptitude
+how to solve time and work problems,aptitude
+how to solve number series problems,aptitude
+how to prepare for verbal reasoning,aptitude
+best youtube channels for aptitude,aptitude
+how many questions come in aptitude test,aptitude
+how to improve speed in aptitude,aptitude
+how to prepare for logical reasoning,aptitude
+
+how to prepare resume for campus placement,placement
+what companies come for placement in engineering colleges,placement
+how to clear group discussion in placement,placement
+what is off campus placement,placement
+how to apply for off campus placement,placement
+which platforms are good for placement preparation,placement
+how to get placed in product based company,placement
+what gpa is needed for placement,placement
+how to prepare for technical interview in placement,placement
+tips to crack placement in final year,placement
+
+how to optimize linkedin for job search,linkedin
+what to write in linkedin headline,linkedin
+how to get linkedin premium for free,linkedin
+how to message recruiter on linkedin,linkedin
+how to follow up on linkedin after applying,linkedin
+what are linkedin skills to add,linkedin
+how to get endorsements on linkedin,linkedin
+how to use linkedin learning,linkedin
+how to grow linkedin network as student,linkedin
+what is linkedin open to work feature,linkedin
+
+how to prepare for system design interview,coding_interview
+how to practice competitive programming,coding_interview
+which data structures are most important,coding_interview
+how to solve dynamic programming problems,coding_interview
+how to prepare for google interview,coding_interview
+how to solve graph problems in coding,coding_interview
+how to improve time complexity of code,coding_interview
+best books for coding interview preparation,coding_interview
+how to prepare for amazon coding interview,coding_interview
+how to solve tree problems in coding,coding_interview
+
+how to become seo expert,digital_marketing
+what is content marketing,digital_marketing
+how to run google ads,digital_marketing
+how to grow instagram followers for business,digital_marketing
+what is email marketing,digital_marketing
+how to become social media manager,digital_marketing
+what is affiliate marketing,digital_marketing
+scope of digital marketing in india,digital_marketing
+salary of digital marketing professional,digital_marketing
+how to get first digital marketing client,digital_marketing
+
+how to get aws certification,cloud_career
+what is difference between aws and azure,cloud_career
+how to become devops engineer,cloud_career
+what is kubernetes and docker,cloud_career
+scope of cloud computing in india,cloud_career
+salary of cloud engineer in india,cloud_career
+how to start learning cloud computing,cloud_career
+which cloud platform is best to learn,cloud_career
+how to get job in cloud computing,cloud_career
+what projects to build for cloud career,cloud_career
+
+how to become ethical hacker,cyber_career
+what is penetration testing,cyber_career
+how to learn network security,cyber_career
+scope of cyber security in india,cyber_career
+salary of cyber security professional,cyber_career
+how to start learning cyber security,cyber_career
+which certification is best for cyber security,cyber_career
+how to get job in cyber security,cyber_career
+what tools are used in cyber security,cyber_career
+what projects to build for cyber security career,cyber_career
+
+how to learn figma for ui ux,design_career
+what is difference between ui and ux,design_career
+how to become product designer,design_career
+scope of ui ux design in india,design_career
+salary of ui ux designer in india,design_career
+how to start learning ui ux design,design_career
+how to get first ui ux design job,design_career
+what tools are used in ui ux design,design_career
+what projects to build for ui ux portfolio,design_career
+how to do user research for ux design,design_career
+
+how to develop good study habits,student_tips
+how to prepare for exams effectively,student_tips
+how to overcome exam fear,student_tips
+how to improve concentration while studying,student_tips
+how to take effective notes in class,student_tips
+how to manage stress as student,student_tips
+how to stay motivated during studies,student_tips
+how to balance extracurricular and studies,student_tips
+how to improve memory for exams,student_tips
+tips for first year college students,student_tips
